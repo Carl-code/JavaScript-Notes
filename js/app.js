@@ -97,3 +97,16 @@ const operacion = (tipo, numero1, numero2) => {
 operacion('suma', 100, 50);
 operacion('resta', 100, 50);
 
+/* Global Scope o variables locales
+    - Son variables declaradas fuera de una funcion.
+    - Podemos acceder a ellas desde cualquier parte del codigo.
+    - Podemos usar const, let y var.
+*/
+
+var apellido = 'Ojeda';
+console.log('Hola ' + apellido);
+
+const saludo2 = () => {
+    console.log('Hola ' + apellido);
+}
+saludo2();
