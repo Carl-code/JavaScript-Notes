@@ -44,3 +44,11 @@ const edad = 29;
 const pais = 'Mexico';
 
 console.log(`La Persona se llama ${nombre} y tiene ${edad}, es de ${pais}`);
+
+// Operador Ternario
+
+const boleto = 'vip';
+
+const codigoAcceso = boleto === 'vip' ? 'VIP-123-456' : 'REGULAR-456-789';
+
+console.log(codigoAcceso);
