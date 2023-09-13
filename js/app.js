@@ -33,6 +33,14 @@ console.log('El Arreglo Colores tiene: ' + colores.length + ' colores');
 
  console.log(persona.nombre);
  console.log(persona['edad']);
- console.log(persona.saludo());
+//  console.log(persona.saludo());
  console.log(persona.coloresFavoritos[1]);
  console.log(persona.suscripciones['web']);
+
+//  Template literals/strings
+
+const nombre = 'Carlos Ojeda';
+const edad = 29;
+const pais = 'Mexico';
+
+console.log(`La Persona se llama ${nombre} y tiene ${edad}, es de ${pais}`);
