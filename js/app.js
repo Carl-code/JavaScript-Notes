@@ -52,3 +52,24 @@ const boleto = 'vip';
 const codigoAcceso = boleto === 'vip' ? 'VIP-123-456' : 'REGULAR-456-789';
 
 console.log(codigoAcceso);
+
+// Funciones en Js
+
+// Forma #1
+function saludo() {
+    console.log('Hola!');
+}
+
+saludo();
+
+// Forma #2
+const saludo = function () {
+    console.log('Hola desde variable!');
+}
+
+// Forma #3 - Arrow Function
+const saludo = () => {
+    console.log('Hola!');
+}
+
+saludo();
