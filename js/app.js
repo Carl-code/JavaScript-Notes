@@ -73,3 +73,15 @@ const saludo = () => {
 }
 
 saludo();
+
+/*
+    - Parametros: Los valores especificados en la definicion
+    - Argumentos: Los valores que le pasamos a la funcion cuando la Invocamos
+*/
+
+const saludo = (nombre) => {
+    console.log(`Hola ${nombre}!`);
+}
+
+saludo('Carlos');
+
