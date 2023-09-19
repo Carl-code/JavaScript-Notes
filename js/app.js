@@ -389,7 +389,7 @@ usuario.saludo();
 	📌 Object.keys()
 	Nos devuelve un arreglo con las llaves (keys) del objeto.
 */
-const resultado = Object.keys(usuario);
+const resultados = Object.keys(usuario);
 
 /*
 	📌 Object.values()
